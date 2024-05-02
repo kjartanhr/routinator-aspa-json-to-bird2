@@ -53,3 +53,7 @@ deno compile --allow-read --allow-write ./gen.ts
 ```
 
 You can also download a pre-built binary from the releases page.
+
+## License
+
+Licensed under MIT as it was the easiest one to copy paste 🐱
