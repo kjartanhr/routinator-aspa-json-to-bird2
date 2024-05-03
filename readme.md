@@ -8,6 +8,8 @@ routinator --enable-aspa vrps -f json -o dump.json --no-route-origins --no-route
 
 into a BIRD2 function you can use to perform ASPA validation.
 
+(Note that to use the `--enable-aspa` you have to compile Routinator from source. I went over this in a [blog post I wrote](https://as51019.com/posts/aspa-bird2/).)
+
 The resulting function is named `is_aspa_valid()` and you can use it to drop invalid paths with the filter line:
 
 ```
